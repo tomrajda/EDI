@@ -20,7 +20,7 @@ xmlhttp.onreadystatechange = function(){
             data: {
                 labels: Airport_Name.slice(0, 30),
                 datasets: [{
-                    label: 'Height above sea level',
+                    label: 'Height above sea level [meters]',
                     data: Airport_Elevation.slice(0, 30),
                     backgroundColor: "#ff335e",
                 }]

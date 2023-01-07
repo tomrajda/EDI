@@ -42,7 +42,7 @@
         <div class="main">
             <div class="charts-text">
                 <h2>Chart 1</h2>
-                <h5><span>JS Charts</span> - total passenger traffic</h5>
+                <h5>total passenger traffic</h5>
                 <p>The world's busiest airports by passenger traffic are measured 
                     by total passengers (data from Airports Council International),
                     defined as passengers enplaned plus passengers deplaned plus 
@@ -57,7 +57,7 @@
             </div>
             <div class="charts-text">
                 <h2>Chart 2</h2>
-                <h5><span>JS Charts</span> - height above sea level</h5>
+                <h5>height above sea level</h5>
                 <p>Airport elevation means the established elevation of the 
                     highest point on the usable landing area which elevation 
                     is established to be (replace with a number) feet above mean 
@@ -96,13 +96,22 @@
         <div class="main">
             <div class="charts-text">
                 <h2>data</h2>
-                <h5><span>Table</span> Table</h5>
-                <p>TableTableTableTableTableTableTableTableTable
-                    TableTableTableTableTableTable
-                    TableTableTableTableTableTableTableTable
-                    TableTableTableTableTable
-                    TableTableTableTableTableTable
-                </p>
+                <h5><span>Airport data table</h5>
+                <div class="content-table">
+                    <table>
+                        <tr>
+                            <th>Code</th>
+                            <th>Name</th>
+                            <th>Yearly visits</th>
+                            <th>Municipality</th>
+                            <th>ACountry Code</th>
+                            <th>GPS Code</th>
+                            <th>Elevation</th>
+                        </tr>
+                        <tbody id="myTable">
+                            <script type="text/javascript" src="js/custom3.js"></script>
+                        </tbody>
+                    </table>
             </div> 
         </div>
     </section>
@@ -110,5 +119,6 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
 <script type="text/javascript" src="js/custom2.js"></script>
+
 </body>
 </html>
