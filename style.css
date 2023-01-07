@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans serif;
+    box-sizing: border-box;
+}
+
+/*heros*/
+
+.heros {
+    height: 100vh;
+    width: 100%;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, -1), rgb(144, 215, 218, 1) 100%),
+    url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor :pointer;
+}
+span{
+    color:rgb(255, 255, 255);
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.heros button {
+    background-color: rgb(144, 215, 218);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    box-shadow: 0px 0px 5px #0072b1, 0px 0px 15px #3fa9e2;
+}
+
+nav ul li a:hover {
+    color:rgb(53, 53, 31);
+    transition: .7s;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%)
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 40px;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+h4 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+/*charts*/
+
+.charts {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(144, 215, 218);
+}
+
+
+.charts-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.charts-text h2{
+    color: white;
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.charts-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.charts-text p {
+    color: rgb(53, 53, 31);
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+button {
+    background-color: #ff335e;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    box-shadow: 0px 0px 5px #d3385a, 0px 0px 15px #ff335e;
+}
+
+button:hover {
+    background-color: #be1238;;
+    border: 2px solid #be1238;;
+    cursor: pointer;
+    transform: scale(1.2);
+}
