@@ -1,5 +1,5 @@
 var xmlhttp = new XMLHttpRequest();
-var url = "https://my.api.mockaroo.com/Airports.json?key=3d629ea0";
+var url = "https://my.api.mockaroo.com/Airports.json?key=70c3c7e0";
 xmlhttp.open("GET",url,true);
 xmlhttp.send();
 xmlhttp.onreadystatechange = function(){
