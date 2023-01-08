@@ -5,9 +5,9 @@
     box-sizing: border-box;
 }
 
-/*heros*/
+/*home*/
 
-.heros {
+.home {
     height: 100vh;
     width: 100%;
     background-image:
@@ -43,7 +43,7 @@ nav ul li {
     padding: 10px 25px;
 }
 
-.heros button {
+.home button {
     background-color: rgb(144, 215, 218);
     color: white;
     text-decoration: none;

@@ -1,3 +1,5 @@
+//This script fetches data via API and builds chart 2.
+
 var xmlhttp = new XMLHttpRequest();
 var url = "https://my.api.mockaroo.com/Airports.json?key=70c3c7e0";
 xmlhttp.open("GET",url,true);
@@ -12,7 +14,7 @@ xmlhttp.onreadystatechange = function(){
         Airport_Elevation = data.map(function(elem){
             return elem.Airport_Elevation
         })        
-        //console.log(Airport_Year_Visits)
+        //console.log(Airport_Elevation)
 
         const ctx = document.getElementById('canvas2').getContext('2d');
         const myChart = new Chart(ctx, {
